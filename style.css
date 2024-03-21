@@ -1,0 +1,115 @@
+.header-logo{
+    height: 100px;
+    width: 100px;
+}
+
+.cart a img{
+    height: 14px;
+    width: 14px;
+    background-size: cover;
+}
+
+.phone-img img{
+    height: 12px;
+    width: 12px;
+    background-size: cover;
+}
+
+/*----------------------------------------------------*/
+body{
+    margin: 0; 
+}
+
+.container {
+    margin: 0px 166px;
+}
+
+.header{
+    background-image: url('images/pelmeni-gotovye-dlia-varki-syrye-stol-polotentse-razdelochna.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-line{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-item{
+    color: #fff;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+
+    margin-right: 25px;
+
+    transition: color 0.3s linear;
+}
+
+.nav-item:hover{
+    color: orangered;
+}
+
+.cart{
+position: relative;
+
+    border-right: 1px solid #FFFFFF;
+    padding-right: 10px;
+    height: 50px;
+
+}
+
+.cart-img{
+    position: absolute;
+    top: 18px;
+    right: 10px;
+}
+
+.phone{
+    margin-left: 10px;
+}
+
+.num a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+
+    transition: color 0.3s linear;
+}
+
+.num a:hover{
+    color: orangered;
+}
+
+.phone-text{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+}
+
+.phone-holder{
+    display: flex;
+    align-items: center;
+}
+
+.button{
+    background-color: orange;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    transition: background-color 0.3s linear;
+}
+
+.button:hover{
+    background-color: orangered;
+}
