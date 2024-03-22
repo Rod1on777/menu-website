@@ -175,30 +175,68 @@ position: relative;
 
 .card{
     width: 349px;
-    box-shadow: 10px 10px 40px 20px rgb(0, 0, 0);
+    box-shadow: 10px 10px 40px 20px rgb(40, 40, 40);
     margin-right: 31px;
     background-color: #fff;
     margin-top: -80px;
+    padding: 30px 10px 20px 10px;
 }
 
 .card-image{
     display: flex;
     justify-content: center;
-    padding-top: 30px;
-    padding-bottom: 20px;
 }
 
 .card-title{
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
+
+    font-family: "Tinos", serif;
+    font-size: 26px;
+    font-weight: 500;
 }
 
 .card-desc{
     display: flex;
     justify-content: center;
+    text-align: center;
+
+    font-family: "Tinos", serif;
+    font-size: 26px;
+    font-weight: 500;
+
+    color: rgb(88, 88, 88);
 }
 
 .cards-holder{
     display: flex;
     justify-content: space-between;
+}
+
+.card-title span{
+    color: rgb(201, 139, 24);
+}
+
+.history-title{
+    font-family: "Tinos", serif;
+    font-size: 54px;
+    font-weight: 500;
+    width: 444px;
+    text-align: center;
+}
+
+.history-title span{
+    color: rgb(201, 139, 24);
+}
+
+.history-desc{
+    color: rgb(120, 120, 120);
+    font-size: 16px;
+    width: 444px;
+    text-align: center;
+    margin-top: 21px;
+}
+.history{
+    margin-top: 166px;
 }
