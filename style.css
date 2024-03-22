@@ -239,4 +239,163 @@ position: relative;
 }
 .history{
     margin-top: 166px;
+    padding-bottom: 200px;
+}
+
+.history-number{
+    display:flex;
+    width: 444px;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.number-item{
+    margin-right: 60px;
+    text-align: center;
+    font-size: 40px;
+    color: orange;
+}
+
+.number-item span{
+    display: block;
+    color: #000;
+    font-size: 20px;
+}
+
+#img1{
+    width: 295px;
+    height: 430px;
+    position:absolute;
+    z-index: 1;
+    top: -50px;
+    left: -500px;
+    border: 2px rgb(255, 208, 120) solid;
+    border-radius: 5px;
+}
+
+#img2{
+    width: 400px;
+    height: 280px;
+    position:absolute;
+    z-index: 2;
+    top: 0px;
+    left: -850px;
+    border: 2px rgb(255, 208, 120) solid;
+    border-radius: 5px;
+}
+
+#img3{
+    width: 200px;
+    height: 300px;
+    position:absolute;
+    z-index: 2;
+    top: 100px;
+    left: -250px;
+    border: 2px rgb(255, 208, 120) solid;
+    border-radius: 5px;
+}
+
+.history-holder{
+    display: flex;
+    justify-content: space-between;
+}
+
+.history-images{
+    position: relative;
+}
+
+.black-block{
+    background-image: url('images/black-block.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0px;
+}
+
+.left-title{
+    color: orange;
+    font-family: "Tinos", serif;
+    font-size: 52px;
+    font-weight: 500;
+
+    margin-bottom: 24px;
+}
+
+.left-text{
+    color:white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.right-btn{
+    background-color: orange;
+    padding: 14px 18px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+
+    transition: background-color 0.3s linear;
+}
+
+.right-btn:hover{
+    background-color: orangered;
+}
+
+.block-holder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.dishes-title{
+    font-family: "Tinos", serif;
+    font-size: 54px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 132px;
+    margin-bottom: 139px;
+}
+
+.dishes-title span{
+    color: orange;
+}
+
+.pelmeni{
+    display: flex;
+    justify-content: center;
+}
+
+#pelmen-main{
+    display: flex;
+    width: 612px;
+    height: 620px;
+    border: 2px orange solid;
+}
+
+.pelmen-item{
+    display:flex;
+    align-items: center;
+    margin-bottom: 29px;
+}
+
+.pelmen-image{
+    margin-right: 20px;
+}
+
+.pelmen-text{
+    font-family: "Tinos", serif;
+    font-size: 26px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.pelmen{
+    border: 2px rgb(113, 74, 0) solid;
+    width: 272px;
+    height: 185px;
 }
