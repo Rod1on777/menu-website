@@ -399,3 +399,149 @@ position: relative;
     width: 272px;
     height: 185px;
 }
+
+.menu{
+    background-image: url("images/menu-bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+.menu-title{
+    font-family: "Tinos", serif;
+    font-size: 54px;
+    font-weight: 500;
+
+    padding-top: 98px;
+    padding-bottom: 138px;
+
+    color: #ffffff;
+    text-align: center;
+
+    text-shadow: rgb(0, 0, 0) 4px 0 5px;
+    text-shadow: 3px 3px 2px rgb(0, 0, 0);
+}
+
+.menu-img{
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+}
+
+.menu-item{
+    background-color: white;
+    text-align: center;
+    width: 33%;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    margin-right: 20px;
+
+    box-shadow: 20px 10px 20px 10px rgba(0, 0, 0, 0.735);
+}
+
+.menu-text{
+    font-family: "Tinos", serif;
+    font-size: 26px;
+    font-weight: 500;
+    padding-top: 16px;
+    padding-bottom:17px;
+}
+
+.menu-subtext{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+}
+
+.menu-btn{
+    background-color: orange;
+    text-decoration: none;
+    padding: 14px 67px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.503);
+
+    transition: background-color 0.3s linear;
+}
+
+.menu-btn:hover{
+    background-color: orangered;
+}
+
+.menu-button{
+    margin-top: 20px;
+}
+
+.price-image{
+    position:absolute;
+    bottom: 10px;
+    right: 90px;
+}
+
+.menu-image{
+    position:relative;
+}
+
+.price-20{
+    position: absolute;
+    bottom: 53px;
+    right: 127px;
+    color:white;
+    font-size: 50px;
+}
+
+.menu-items{
+    display: flex;
+    justify-content: center;
+}
+
+.comment{
+    background-color: white;
+    padding-top: 104px;
+    padding-bottom: 139px;
+}
+
+.comment-text{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.comment-img{
+    height:100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+.comment-image{
+    text-align: center;
+}
+
+.comment-type{
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+
+.comment-name{
+    padding-top: 9px;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.gallery-title{
+    font-family: "Tinos", serif;
+    font-size: 54px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.gallery-title span{
+    color: orange;
+}
